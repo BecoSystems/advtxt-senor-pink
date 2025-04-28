@@ -1,0 +1,27 @@
+algoritmo dungeon;
+
+    variáveis
+
+    num1, num2, resultado : real;
+
+    fim-variáveis
+início
+    imprima("Digite o primeiro número: ");
+    num1 := leia();
+
+    imprima("Digite o segundo número: ");
+    num2 := leia();
+
+    se num2 = 0 então
+
+        imprima("Erro! Divisão por zero não é permitida.");
+    senão
+
+        resultado := num1 / num2;
+
+        imprima("O resultado da divisão é: ", resultado);
+
+    fim-se
+
+fim
+
